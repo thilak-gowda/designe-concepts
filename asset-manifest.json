@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/designe-concepts1/static/css/main.1a2bd9cb.css",
-    "main.js": "/designe-concepts1/static/js/main.3ce1ae4f.js",
-    "static/js/453.ed43b8c9.chunk.js": "/designe-concepts1/static/js/453.ed43b8c9.chunk.js",
-    "index.html": "/designe-concepts1/index.html",
-    "main.1a2bd9cb.css.map": "/designe-concepts1/static/css/main.1a2bd9cb.css.map",
-    "main.3ce1ae4f.js.map": "/designe-concepts1/static/js/main.3ce1ae4f.js.map",
-    "453.ed43b8c9.chunk.js.map": "/designe-concepts1/static/js/453.ed43b8c9.chunk.js.map"
+    "main.css": "/designe-concepts/static/css/main.1a2bd9cb.css",
+    "main.js": "/designe-concepts/static/js/main.a9511dec.js",
+    "static/js/453.ed43b8c9.chunk.js": "/designe-concepts/static/js/453.ed43b8c9.chunk.js",
+    "index.html": "/designe-concepts/index.html",
+    "main.1a2bd9cb.css.map": "/designe-concepts/static/css/main.1a2bd9cb.css.map",
+    "main.a9511dec.js.map": "/designe-concepts/static/js/main.a9511dec.js.map",
+    "453.ed43b8c9.chunk.js.map": "/designe-concepts/static/js/453.ed43b8c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a2bd9cb.css",
-    "static/js/main.3ce1ae4f.js"
+    "static/js/main.a9511dec.js"
   ]
 }
