@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/designe-concepts/static/css/main.1a2bd9cb.css",
-    "main.js": "/designe-concepts/static/js/main.a9511dec.js",
+    "main.css": "/designe-concepts/static/css/main.3e012f94.css",
+    "main.js": "/designe-concepts/static/js/main.02f21860.js",
     "static/js/453.ed43b8c9.chunk.js": "/designe-concepts/static/js/453.ed43b8c9.chunk.js",
+    "static/media/warrenty.png": "/designe-concepts/static/media/warrenty.457caade7576aa79c23c.png",
+    "static/media/transperancy.png": "/designe-concepts/static/media/transperancy.29eba55ebc7e9ba983b8.png",
+    "static/media/customizable.png": "/designe-concepts/static/media/customizable.9f727929ffadcf4ccb2a.png",
+    "static/media/kitchen.jpeg": "/designe-concepts/static/media/kitchen.3e696515281fabe28423.jpeg",
+    "static/media/design-concepts-adapt.webp": "/designe-concepts/static/media/design-concepts-adapt.1634621e38ea7185c952.webp",
+    "static/media/design-concepts-image.webp": "/designe-concepts/static/media/design-concepts-image.40416d103c20ff3fc4cc.webp",
+    "static/media/design-conceptsairfusion.webp": "/designe-concepts/static/media/design-conceptsairfusion.868ee5f5a3fd1d78999a.webp",
+    "static/media/design-concepts-water-resistant.webp": "/designe-concepts/static/media/design-concepts-water-resistant.d218313a869b4e31665d.webp",
+    "static/media/arrow.png": "/designe-concepts/static/media/arrow.a0aded330f24b033dcad.png",
     "index.html": "/designe-concepts/index.html",
-    "main.1a2bd9cb.css.map": "/designe-concepts/static/css/main.1a2bd9cb.css.map",
-    "main.a9511dec.js.map": "/designe-concepts/static/js/main.a9511dec.js.map",
+    "main.3e012f94.css.map": "/designe-concepts/static/css/main.3e012f94.css.map",
+    "main.02f21860.js.map": "/designe-concepts/static/js/main.02f21860.js.map",
     "453.ed43b8c9.chunk.js.map": "/designe-concepts/static/js/453.ed43b8c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a2bd9cb.css",
-    "static/js/main.a9511dec.js"
+    "static/css/main.3e012f94.css",
+    "static/js/main.02f21860.js"
   ]
 }
