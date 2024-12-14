@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import client1 from '../assetes/images/client.jpg';
+import kitchen from '../assetes/images/kitchen.jpeg';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -28,35 +30,43 @@ export default function Testimonial() {
           modules={[Mousewheel, Pagination]}
           className="mySwiper"
         >
-          <SwiperSlide className="bg-secondary swip-alig">
+          <SwiperSlide className=" swip-alig">
+            <div className="testimonial">
+              <div className="row d-flex align-items-center">
+                <div className="col-lg-8 bord-left">
+                  <img src={client1} className='client-img' alt="" />
+                  <p className='testimon'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut labore laborum pariatur ducimus deleniti aliquam quasi cupiditate, odio sequi amet ipsam tempora mollitia molestiae vel saepe iure repellat earum quia.
+                  </p>
+                </div>
+                <div className="col-lg-4">
+                  <img src={kitchen} className="clin-plc" alt="" />
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className=" swip-alig">
             <div className="testimonial">
               <p className=''>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut labore laborum pariatur ducimus deleniti aliquam quasi cupiditate, odio sequi amet ipsam tempora mollitia molestiae vel saepe iure repellat earum quia.
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="bg-secondary swip-alig">
+          <SwiperSlide className=" swip-alig">
             <div className="testimonial">
               <p className=''>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut labore laborum pariatur ducimus deleniti aliquam quasi cupiditate, odio sequi amet ipsam tempora mollitia molestiae vel saepe iure repellat earum quia.
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="bg-secondary swip-alig">
+          <SwiperSlide className=" swip-alig">
             <div className="testimonial">
               <p className=''>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut labore laborum pariatur ducimus deleniti aliquam quasi cupiditate, odio sequi amet ipsam tempora mollitia molestiae vel saepe iure repellat earum quia.
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="bg-secondary swip-alig">
-            <div className="testimonial">
-              <p className=''>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut labore laborum pariatur ducimus deleniti aliquam quasi cupiditate, odio sequi amet ipsam tempora mollitia molestiae vel saepe iure repellat earum quia.
-              </p>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="bg-secondary swip-alig">
+          <SwiperSlide className=" swip-alig">
             <div className="testimonial">
               <p className=''>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut labore laborum pariatur ducimus deleniti aliquam quasi cupiditate, odio sequi amet ipsam tempora mollitia molestiae vel saepe iure repellat earum quia.

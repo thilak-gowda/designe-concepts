@@ -4,7 +4,25 @@ import Accordion from 'react-bootstrap/Accordion';
 import Carousel from 'react-bootstrap/Carousel';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 import Heading from "../components/heading";
+import Subheader from "../components/heading";
 import Testimonial from "../components/testimonials";
+import arow from "../assetes/images/arrow.png";
+
+import AquaShield from '../assetes/images/design-concepts-water-resistant.webp';
+import Adapt from '../assetes/images/design-concepts-adapt.webp';
+import SolidCore from '../assetes/images/design-concepts-image.webp';
+import Airfusion from '../assetes/images/design-conceptsairfusion.webp';
+
+import Custom from '../assetes/images/customizable.png';
+
+import Assurance from '../assetes/images/warrenty.png';
+import transperancy from '../assetes/images/transperancy.png';
+
+
+
+
+
+
 
 function Home() {
     return (
@@ -16,8 +34,8 @@ function Home() {
                     </div>
                     <img src="https://themes.pixelwars.org/interioz/demo-01/wp-content/uploads/sites/2/2024/07/0e06e24b-ffe1-4104-9bcb-37c673740fd9-1920x1200.jpg" className="w-100 caro-img" alt="" />
                     <Carousel.Caption>
-                        <p>Modern Luxury</p>
-                        <h3>Luxe Heaven</h3>
+                        {/* <p>Building Your Vision, Creating reality</p> */}
+                        <h3>Building Your <span> Vision</span><br /> Creating <span>reality</span></h3>
 
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -27,8 +45,8 @@ function Home() {
                     </div>
                     <img src="https://themes.pixelwars.org/interioz/demo-01/wp-content/uploads/sites/2/2024/07/0e06e24b-ffe1-4104-9bcb-37c673740fd9-1920x1200.jpg" className="w-100 caro-img" alt="" />
                     <Carousel.Caption>
-                        <p>Modern Luxury</p>
-                        <h3>Second slide label</h3>
+                        {/* <p>Modern Luxury</p> */}
+                        <h3>Creating <span>beauty</span> <br /> inspiring <span>living</span></h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -37,10 +55,11 @@ function Home() {
                     </div>
                     <img src="https://themes.pixelwars.org/interioz/demo-01/wp-content/uploads/sites/2/2024/07/0e06e24b-ffe1-4104-9bcb-37c673740fd9-1920x1200.jpg" className="w-100 caro-img" alt="" />
                     <Carousel.Caption>
-                        <p>
-                            Modern Luxury
-                        </p>
-                        <h3>Third slide label</h3>
+
+                        <h3>
+                            Refined <span>style</span> <br /> effortless <span>comfort</span>
+
+                        </h3>
 
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -57,13 +76,7 @@ function Home() {
                     hed11="Expertly crafting"
                     hed12="your dream"
                 />
-                <p className="sm-acont text-center w-50 d-block mx-auto pt-3 abtt-c">
-                    We turn your interior design dreams into reality with our specialized touch in elegant and functional spaces.
-                </p>
 
-                <a href="" className="our-ser">
-                    Our Services
-                </a>
 
             </section>
 
@@ -149,37 +162,159 @@ function Home() {
 
                         </div>
                     </div>
+                    <div className="flx pt-5">
+
+                        <h2 className="exp-ser">
+                            Expertise in Interior drsigne
+                        </h2>
+
+                        <p className="sm-acont text-center w-50 d-block mx-auto pt-3 abtt-c">
+                            We turn your interior design dreams into reality with our specialized touch in elegant and functional spaces.
+                        </p>
+
+                        <a href="" className="our-ser d-block">
+                            Our Services
+                        </a>
 
 
+                        <div className="serv-points mt-5">
+                            <p className="blt-pts">
+                                <img src={arow} alt="" className="arow me-4" />
+                                Modular kitchens
+                            </p>
+
+                            <p className="blt-pts">
+                                <img src={arow} alt="" className="arow me-4" />
+                                Modular wardrobes
+                            </p>
+
+                            <p className="blt-pts">
+                                <img src={arow} alt="" className="arow me-4" />
+                                Lighting
+                            </p>
+
+                            <p className="blt-pts">
+                                <img src={arow} alt="" className="arow me-4" />
+                                Pooja unit
+                            </p>
+                            <p className="blt-pts">
+                                <img src={arow} alt="" className="arow me-4" />
+                                CNC Wood Carving
+                            </p>
+
+                            <p className="blt-pts">
+                                <img src={arow} alt="" className="arow me-4" />
+                                Civil work
+                            </p>
+
+                            <p className="blt-pts">
+                                <img src={arow} alt="" className="arow me-4" />
+                                False ceiling
+                            </p>
+
+                            <p className="blt-pts">
+                                <img src={arow} alt="" className="arow me-4" />
+                                Wall design {'&'} painting
+                            </p>
+                        </div>
+
+                    </div>
                 </div>
             </section>
 
 
-            <section className="about-ush text-center">
-                <Heading
-                    aboutUs="Services"
-                    hed11="Expertly crafting"
-                    hed12="your dream"
-                />
-                <p className="sm-acont text-center w-50 d-block mx-auto pt-3 abtt-c">
-                    We turn your interior design dreams into reality with our specialized touch in elegant and functional spaces.
-                </p>
 
-                <a href="" className="our-ser">
-                    Our Services
-                </a>
+            <section>
+                <div className="container">
+                    <div className="row ">
+                        <div className="col-lg-6">
+                            <Heading
+                                aboutUs="Process"
+                                hed11="Designing with Innovation "
+                            // hed12="Process"
+                            />
 
-            </section>
+                            <p className="pt-2 ps-5 ms-3 mt-4">
+                                <img src={Custom} alt="" className="proc-img2 me-2" />  <b>
+                                    Custom-Crafted Innovations
+                                </b>
+                            </p>
 
+
+                            <p className="pt-2 ps-5 ms-3">
+                                <img src={Assurance} alt="" className="proc-img2 me-2" />  <b> Backed by a Decade of Assurance¹</b><br />
+
+                            </p>
+
+                            <p className="pt-2 ps-5 ms-3">
+                                <img src={transperancy} alt="" className="proc-img2 me-2" />  <b>
+                                    Clear-Cut Pricing Transparency
+                                </b>
+
+                            </p>
+
+                        </div>
+
+                        <div className="col-lg-6 pt-5 mt-5">
+
+
+
+
+
+                            <p>
+                                <img src={AquaShield} alt="" className="proc-img me-2" />  <b>  AquaShield™ Technology</b><br />
+                                <span className="ps-5 d-block"> Precision-sealed edges that block moisture, keeping your modular cabinets durable and flawless.
+                                </span>
+                            </p>
+
+
+                            <p>
+                                <img src={Airfusion} alt="" className="proc-img me-2" />  <b>  AirFusion™ Technology</b><br />
+                                <span className="ps-5 d-block"> Ultra-smooth panel finishes crafted without air pockets, ensuring a seamless and luxurious look.
+                                </span>
+                            </p>
+
+
+
+                            <p>
+                                <img src={SolidCore} alt="" className="proc-img me-2" />  <b>  SolidCore™ Technology</b><br />
+                                <span className="ps-5 d-block">  A reinforced structural framework for modular cabinets, delivering unmatched strength and longevity.
+                                </span>
+                            </p>
+
+                            <p>
+                                <img src={Adapt} alt="" className="proc-img me-2" />  <b> AdaptFlow™ Technology</b><br />
+                                <span className="ps-5 d-block"> Intelligently designed kitchens optimized for ergonomic efficiency, enhancing accessibility, simplifying daily tasks, and reducing physical strain for a seamless cooking experience.
+                                </span>
+                            </p>
+
+                            <a href="" className="get-intouch text-center mt-5 d-block">
+                                Get in Touch!
+                            </a>
+
+                        </div>
+                    </div>
+                </div >
+            </section >
 
 
             <section className="about-ush text-center">
                 <div className="container">
                     <Heading
-                        aboutUs="Quiet Space"
+
                         hed11="Showcase"
+                    // aboutUs="Quiet Space"
 
                     />
+                    <div className="d-flex justify-content-center pb-5">
+                        <div className="sub-hed ">
+                            <span className="line"></span>
+                            <span>Bringing Visions to Reality</span>
+                            <span className="line"></span>
+                        </div>
+                    </div>
+
+
                     <div className="row">
                         <div className="col-lg-4">
                             <img src="https://themes.pixelwars.org/interioz/demo-01/wp-content/uploads/sites/2/2024/07/Ultra-realistic-photo-of-Modern-take-on-bali-ins-2-650x1300.jpg" className="w-100 sho-mn-img" alt="" />
@@ -211,36 +346,13 @@ function Home() {
             </section>
 
 
-            <section>
-                <div className="container">
-                    <div className="row d-flex align-items-center">
-                        <div className="col-lg-6">
-                            <Heading
-                                aboutUs="Process"
-                                hed11="Interior "
-                                hed12="Process"
-                            />
-                        </div>
 
-                        <div className="col-lg-6">
-                            <p>
-                                Transforming a space involves understanding and applying key design principles to create a harmonious and functional environment.
-                            </p>
-
-                            <a href="" className="get-intouch mt-5">
-                                Get in Touch!
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <section>
                 <Heading
-                    aboutUs="Projects"
-                    hed11="Design Excellence "
-                    hed12="Unveiled"
+                    aboutUs="Testimonials"
+                    hed11="Let our clients speak "
+                    hed12="for us !"
                 />
 
                 <Testimonial />
@@ -331,7 +443,7 @@ function Home() {
                 </div>
             </section>
 
-        </section>
+        </section >
     );
 }
 

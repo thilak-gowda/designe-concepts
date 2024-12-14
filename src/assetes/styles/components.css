@@ -35,11 +35,42 @@ nav .nav-link,
 }
 
 .carousel-caption h3 {
-    font-size: 80px;
-    text-transform: uppercase;
+    font-size: 55px;
+    text-transform: capitalize;
     font-weight: 700;
+    line-height: 90px;
 }
 
+.carousel-caption h3  span{
+    background-color: antiquewhite;
+    color: #000000;
+}
+
+.flx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exp-ser{
+    color: #000000;
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.arow{
+    width: 20px;
+}
+
+.serv-points{
+    background-color: antiquewhite;
+    padding: 4%;
+     border-radius: 20px;
+}
+
+.blt-pts{
+    font-size: 15px;
+}
 
 
 /* heading */
@@ -74,9 +105,28 @@ nav .nav-link,
     /* Prevent line breaking for the text */
 }
 
+.accordion-body{
+    font-size: 15px;
+}
+
+
+.proc-img{
+    width: 30px;
+    display: inline-block;
+    background-color: transparent !important;
+}
+
+.proc-img2{
+    width: 50px;
+}
+
+/* .txt-cen-ls{
+    text-align-last: center !important;
+} */
+
 .hed-cont {
     color: #000000;
-    font-size: 85px;
+    font-size: 60px;
     font-weight: 800;
     line-height: 1em;
 }
@@ -116,7 +166,7 @@ nav .nav-link,
     margin: auto;
     padding: 4%;
     width: 70% !important;
-    background-color: #6c757d;
+    /* background-color: #6c757d; */
     /* Bootstrap secondary color */
 }
 
@@ -180,6 +230,51 @@ nav .nav-link,
     display: block;
     font-weight: 300;
 }
+
+.swiper-pagination-bullet {
+    border-radius: 0px !important;
+    background-color: goldenrod !important;
+}
+
+.swiper-pagination-bullet-active {
+    padding: 10% !important;
+    border: 2px solid black !important;
+}
+
+.ftr-txt{
+    font-size: 12px;
+    word-spacing: 5px;
+    text-align: justify;
+
+}
+
+.testimonial{
+    background-color: goldenrod;
+    /* border-radius: 20px !important; */
+}
+
+.client-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.testimon{
+    font-size: 14px;
+    text-align: center;
+}
+
+.bord-left{
+    border-radius: 20px;
+}
+
+.clin-plc{
+    width: 100%;
+}
+
 
 
 @media only screen and (max-width:760px) {
