@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/designe-concepts/static/css/main.dbeb53c4.css",
-    "main.js": "/designe-concepts/static/js/main.88b7c2f9.js",
+    "main.js": "/designe-concepts/static/js/main.ce5c13bd.js",
     "static/js/453.ed43b8c9.chunk.js": "/designe-concepts/static/js/453.ed43b8c9.chunk.js",
     "static/media/banner-1.jpg": "/designe-concepts/static/media/banner-1.f0bcb82049ed34a08815.jpg",
     "static/media/banner-3.jpg": "/designe-concepts/static/media/banner-3.a7b3d770b333c737f5ac.jpg",
@@ -27,11 +27,11 @@
     "static/media/interior-designer.jpeg": "/designe-concepts/static/media/interior-designer.3c4b25442821886245ee.jpeg",
     "index.html": "/designe-concepts/index.html",
     "main.dbeb53c4.css.map": "/designe-concepts/static/css/main.dbeb53c4.css.map",
-    "main.88b7c2f9.js.map": "/designe-concepts/static/js/main.88b7c2f9.js.map",
+    "main.ce5c13bd.js.map": "/designe-concepts/static/js/main.ce5c13bd.js.map",
     "453.ed43b8c9.chunk.js.map": "/designe-concepts/static/js/453.ed43b8c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dbeb53c4.css",
-    "static/js/main.88b7c2f9.js"
+    "static/js/main.ce5c13bd.js"
   ]
 }
