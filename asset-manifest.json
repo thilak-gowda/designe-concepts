@@ -1,24 +1,37 @@
 {
   "files": {
-    "main.css": "/designe-concepts/static/css/main.3e012f94.css",
-    "main.js": "/designe-concepts/static/js/main.02f21860.js",
+    "main.css": "/designe-concepts/static/css/main.dbeb53c4.css",
+    "main.js": "/designe-concepts/static/js/main.44f7aa74.js",
     "static/js/453.ed43b8c9.chunk.js": "/designe-concepts/static/js/453.ed43b8c9.chunk.js",
+    "static/media/banner-1.jpg": "/designe-concepts/static/media/banner-1.f0bcb82049ed34a08815.jpg",
+    "static/media/banner-3.jpg": "/designe-concepts/static/media/banner-3.a7b3d770b333c737f5ac.jpg",
+    "static/media/banner-2.jpg": "/designe-concepts/static/media/banner-2.56f5245abc3e6559510f.jpg",
+    "static/media/showcase1.jpg": "/designe-concepts/static/media/showcase1.cb0e47d5352be9417b37.jpg",
     "static/media/warrenty.png": "/designe-concepts/static/media/warrenty.457caade7576aa79c23c.png",
+    "static/media/gal3.jpeg": "/designe-concepts/static/media/gal3.292d225a05fd5ddf843d.jpeg",
     "static/media/transperancy.png": "/designe-concepts/static/media/transperancy.29eba55ebc7e9ba983b8.png",
+    "static/media/gal2.jpeg": "/designe-concepts/static/media/gal2.684a76b54a91bfcaed20.jpeg",
+    "static/media/gal1.jpeg": "/designe-concepts/static/media/gal1.d2165ced8b897a12ba94.jpeg",
+    "static/media/gal5.jpeg": "/designe-concepts/static/media/gal5.7e3c428e31b606881256.jpeg",
+    "static/media/site-supervisor.jpeg": "/designe-concepts/static/media/site-supervisor.dc94505807f3a2346c1e.jpeg",
+    "static/media/gal4.jpeg": "/designe-concepts/static/media/gal4.25bbf57eb4a5f73c18bc.jpeg",
     "static/media/customizable.png": "/designe-concepts/static/media/customizable.9f727929ffadcf4ccb2a.png",
     "static/media/kitchen.jpeg": "/designe-concepts/static/media/kitchen.3e696515281fabe28423.jpeg",
+    "static/media/founder.jpeg": "/designe-concepts/static/media/founder.88c278b526134ef8ba50.jpeg",
+    "static/media/project-manager.jpeg": "/designe-concepts/static/media/project-manager.2a4473690fa22679d39f.jpeg",
     "static/media/design-concepts-adapt.webp": "/designe-concepts/static/media/design-concepts-adapt.1634621e38ea7185c952.webp",
     "static/media/design-concepts-image.webp": "/designe-concepts/static/media/design-concepts-image.40416d103c20ff3fc4cc.webp",
     "static/media/design-conceptsairfusion.webp": "/designe-concepts/static/media/design-conceptsairfusion.868ee5f5a3fd1d78999a.webp",
     "static/media/design-concepts-water-resistant.webp": "/designe-concepts/static/media/design-concepts-water-resistant.d218313a869b4e31665d.webp",
     "static/media/arrow.png": "/designe-concepts/static/media/arrow.a0aded330f24b033dcad.png",
+    "static/media/interior-designer.jpeg": "/designe-concepts/static/media/interior-designer.3c4b25442821886245ee.jpeg",
     "index.html": "/designe-concepts/index.html",
-    "main.3e012f94.css.map": "/designe-concepts/static/css/main.3e012f94.css.map",
-    "main.02f21860.js.map": "/designe-concepts/static/js/main.02f21860.js.map",
+    "main.dbeb53c4.css.map": "/designe-concepts/static/css/main.dbeb53c4.css.map",
+    "main.44f7aa74.js.map": "/designe-concepts/static/js/main.44f7aa74.js.map",
     "453.ed43b8c9.chunk.js.map": "/designe-concepts/static/js/453.ed43b8c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e012f94.css",
-    "static/js/main.02f21860.js"
+    "static/css/main.dbeb53c4.css",
+    "static/js/main.44f7aa74.js"
   ]
 }
